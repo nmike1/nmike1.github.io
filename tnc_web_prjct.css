@@ -1,0 +1,244 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #eee;
+}
+/*IMGS*/
+#logo{
+	position: relative;
+	top: 10px;
+	right: 10px;
+}
+#fast{
+	position: relative;
+	top: 40px;
+}
+#prem{
+	position: relative;
+	top: 40px;
+}
+#header{
+	width: 100%;
+	height: 60px;
+	background-color: #2d2c2c;
+	box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.7);
+	-webkit-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.7);
+	-moz-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.7);
+	-o-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.7);
+}
+#hdr_content{
+	width: 100%;
+	height: 100%;
+}
+#hdr #logo{
+	width: 100px;
+	height: 60px;
+}
+#header #hdrlnk_btn{
+	font-family: segoe ui light;
+	font-weight: bold;
+	font-size: 17px;
+	color: #fff;
+	width: 100px;
+	height: 55px;
+	border: 0;
+	border-bottom: purple solid 5px;
+	background-color: rgba(0, 0, 0, 0);
+}
+#header #hdrlnk_btn1{
+	font-family: segoe ui light;
+	font-weight: bold;
+	font-size: 17px;
+	color: #fff;
+	width: 100px;
+	height: 55px;
+	border: 0;
+	margin-left: 40px;
+	border-bottom: yellow solid 5px;
+	background-color: rgba(0, 0, 0, 0);
+}
+#header #hdr_btn{
+	font-family: segoe ui light;
+	font-weight: bold;
+	background-color: #1d1d1d;
+	position: relative;
+	left: 47%;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	width: 100px;
+	height: 60px;
+	border: 0px;
+	display: inline-grid;
+}
+#header #hdr_btn1{
+	font-family: segoe ui light;
+	font-weight: bold;
+	background-color: #5ae286;
+	position: relative;
+	left: 50%;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+	color: #1d1d1d;
+	width: 100px;
+	height: 60px;
+	border: 0px;
+	display: inline-grid;
+}
+
+/*NAV BAR*/
+#nav-bar{
+	width: 100%;
+	height: 70px;
+	background-color: #eee;
+	margin-top: 10px;
+}
+.a-holder{
+	float: right;
+	margin-top: 10px;
+}
+#nav-bar a{
+	font-family: segoe ui light;
+	font-size: 17px;
+	color: #2d2c2c;
+	text-decoration: none;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+/*MAIN*/
+.main{
+	overflow-y: scroll;
+	height: 517px;
+}
+.heading h1{
+	font-family: segoe ui light;
+	font-weight: bold;
+	font-size: 27px;
+	color: #1d1d1d;
+}
+.heading #email{
+	width: 240px;
+	height: 25px;
+	font-family: segoe ui;
+	color: #1d1d1d;
+}
+.heading #btn{
+	width: 120px;
+	height: 50px;
+	font-family: segoe ui;
+	font-weight: bold;
+	font-size: 17;
+	color: #1d1d1d;
+	border: 0;
+	background-color: #ecca40;
+	display: block;
+	margin-top: 20px;
+}
+#cnt_div #wrd_div{
+	display: inline-grid;
+	margin-top: 60px;
+}
+#wrd_div #h1{
+	font-family: segoe ui light;
+	font-weight: bold;
+	font-size: 28px;
+	color: #1d1d1d;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+}
+#wrd_div #p{
+	font-family: segoe ui;
+	font-size: 17px;
+	color: #1d1d1d;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+}
+#video-div{
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+.buy_boxes{
+	width: 100%;
+}
+.buy_boxes figure{
+	width: 300px;
+	height: 310px;
+	border: #000 solid 1px;
+	display: inline-grid;
+	margin-top: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.buy_boxes #caption{
+	width: 100%;
+	height: 50px;
+	background-color: #ddd;
+	box-sizing: border-box;
+}
+.buy_boxes #hp{
+	font-family: segoe ui;
+	font-size: 18px;
+	font-weight: 550;
+	color: #1d1d1d;
+	margin-top: 12px;
+}
+.buy_boxes #amnt{
+	font-family: segoe ui;
+	font-size: 25px;
+	font-weight: 550;
+	color: #1d1d1d;
+	float: top;
+	margin: 0;
+	padding: 0;
+}
+.buy_boxes #lrm_ipsum{
+	font-family: segoe ui;
+	font-size: 16px;
+	color: #1d1d1d;
+	margin: 0;
+	padding: 0;
+}
+.buy_boxes #buy_btn{
+	width: 120px;
+	height: 40px;
+	background-color: #f7d036;
+	font-family: segoe ui;
+	font-size: 16px;
+	color: #2d2c2c;
+	border: 0;
+}
+.prvc_ftr{
+	width: 72%;
+	height: 90px;
+	margin-top: 30px;
+	border: 0;
+	background-color: #ddd;
+	align-self: center;
+}
+.prvc_ftr #a_p{
+	margin-top: 20px;
+	text-align: right;
+}
+.prvc_ftr a{
+	font-family: segoe ui;
+	font-size: 17px;
+	color: #1d1d1d;
+	text-decoration: none;
+	margin-right: 20px;
+	padding: 0;
+}
+.prvc_ftr #cprt_stmnt{
+	font-family: segoe ui;
+	font-size: 15px;
+	color: #2d2c2c;
+	text-decoration: none;
+	margin-top: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+	margin-right: 20px;
+	padding: 0;
+}

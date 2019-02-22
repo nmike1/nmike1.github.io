@@ -1,14 +1,22 @@
 body{
 	padding: 0;
 	margin: 0;
-	background-color: purple;
+	background-color: #eee;
+}
+@font-face{
+	font-family: "Encode Sans Thin";
+	src: url("Fonts/encode-sans/EncodeSans-Thin.ttf") format("otf");
 }
 h1{
-	font-family: segoe ui light;
-	font-size: 32;
-	color: #fff;
+	font-family: "Encode Sans Thin";
+	font-size: 32px;
+	color: #2d2d2d;
+	font-weight: normal;
 	padding: 0;
 	margin: 0;
 	text-align: center;
 	margin-top: 150px;
+}
+#cnt_div{
+	margin-top: 100px;
 }
